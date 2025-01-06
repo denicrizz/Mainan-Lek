@@ -83,7 +83,7 @@ while True:
    cv2.putText(imgBG, str(scores[0]), (410, 215), cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 6)
    cv2.putText(imgBG, str(scores[1]), (1112, 215), cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 6)
    
-   cv2.imshow("Latar Belakang", imgBG)
+   cv2.imshow("Background", imgBG)
    key = cv2.waitKey(1)
    
    if key == ord('s'): # untuk memulai game
